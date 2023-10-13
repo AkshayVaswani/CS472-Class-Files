@@ -1,0 +1,21 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path:     '/Users/akshay/Library/CloudStorage/OneDrive-DrexelUniversity/Fall 2023/CS472/GitHW/CS472-Class-Files/hw1-pdu-c/decoder'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003900, symSize: 0xC0 }
+  - { offsetInCU: 0x3F, offset: 0x3F, size: 0x8, addend: 0x0, symName: _raw_packet_arp_frame78, symObjAddr: 0x400, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offsetInCU: 0x79, offset: 0x79, size: 0x8, addend: 0x0, symName: _raw_packet_icmp_frame362, symObjAddr: 0x440, symBinAddr: 0x100008040, symSize: 0x0 }
+  - { offsetInCU: 0x9A, offset: 0x9A, size: 0x8, addend: 0x0, symName: _raw_packet_icmp_frame198, symObjAddr: 0x4B0, symBinAddr: 0x1000080B0, symSize: 0x0 }
+  - { offsetInCU: 0xBB, offset: 0xBB, size: 0x8, addend: 0x0, symName: _TEST_CASES, symObjAddr: 0x510, symBinAddr: 0x100008110, symSize: 0x0 }
+  - { offsetInCU: 0x42C, offset: 0x42C, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003900, symSize: 0xC0 }
+  - { offsetInCU: 0x4A8, offset: 0x4A8, size: 0x8, addend: 0x0, symName: _decode_raw_packet, symObjAddr: 0xC0, symBinAddr: 0x1000039C0, symSize: 0x160 }
+  - { offsetInCU: 0x55A, offset: 0x55A, size: 0x8, addend: 0x0, symName: __OSSwapInt16, symObjAddr: 0x220, symBinAddr: 0x100003B20, symSize: 0x20 }
+  - { offsetInCU: 0x582, offset: 0x582, size: 0x8, addend: 0x0, symName: _process_arp, symObjAddr: 0x240, symBinAddr: 0x100003B40, symSize: 0x90 }
+  - { offsetInCU: 0x5B8, offset: 0x5B8, size: 0x8, addend: 0x0, symName: _print_arp, symObjAddr: 0x2D0, symBinAddr: 0x100003BD0, symSize: 0x20 }
+  - { offsetInCU: 0x5DC, offset: 0x5DC, size: 0x8, addend: 0x0, symName: _check_ip_for_icmp, symObjAddr: 0x2F0, symBinAddr: 0x100003BF0, symSize: 0x20 }
+  - { offsetInCU: 0x604, offset: 0x604, size: 0x8, addend: 0x0, symName: _process_icmp, symObjAddr: 0x310, symBinAddr: 0x100003C10, symSize: 0x10 }
+  - { offsetInCU: 0x62C, offset: 0x62C, size: 0x8, addend: 0x0, symName: _is_icmp_echo, symObjAddr: 0x320, symBinAddr: 0x100003C20, symSize: 0x20 }
+  - { offsetInCU: 0x654, offset: 0x654, size: 0x8, addend: 0x0, symName: _process_icmp_echo, symObjAddr: 0x340, symBinAddr: 0x100003C40, symSize: 0x10 }
+  - { offsetInCU: 0x67C, offset: 0x67C, size: 0x8, addend: 0x0, symName: _print_icmp_echo, symObjAddr: 0x350, symBinAddr: 0x100003C50, symSize: 0x60 }
+  - { offsetInCU: 0x6B1, offset: 0x6B1, size: 0x8, addend: 0x0, symName: _print_icmp_payload, symObjAddr: 0x3B0, symBinAddr: 0x100003CB0, symSize: 0x4D }
+...

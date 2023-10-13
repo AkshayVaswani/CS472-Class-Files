@@ -1,0 +1,14 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path:     '/Users/akshay/Library/CloudStorage/OneDrive-DrexelUniversity/Fall 2023/CS472/GitHW/CS472-Class-Files/hw1-shell/decoder'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003BE0, symSize: 0xF0 }
+  - { offsetInCU: 0x4D, offset: 0x4D, size: 0x8, addend: 0x0, symName: _ex1b, symObjAddr: 0x350, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offsetInCU: 0x80, offset: 0x80, size: 0x8, addend: 0x0, symName: _ex1w, symObjAddr: 0x370, symBinAddr: 0x100008020, symSize: 0x0 }
+  - { offsetInCU: 0xA7, offset: 0xA7, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003BE0, symSize: 0xF0 }
+  - { offsetInCU: 0xFD, offset: 0xFD, size: 0x8, addend: 0x0, symName: _bytesToArp, symObjAddr: 0xF0, symBinAddr: 0x100003CD0, symSize: 0x10 }
+  - { offsetInCU: 0x12F, offset: 0x12F, size: 0x8, addend: 0x0, symName: _arp_toString, symObjAddr: 0x100, symBinAddr: 0x100003CE0, symSize: 0x20 }
+  - { offsetInCU: 0x16F, offset: 0x16F, size: 0x8, addend: 0x0, symName: _wordsToArp, symObjAddr: 0x120, symBinAddr: 0x100003D00, symSize: 0x10 }
+  - { offsetInCU: 0x1A1, offset: 0x1A1, size: 0x8, addend: 0x0, symName: _mac_toStr, symObjAddr: 0x130, symBinAddr: 0x100003D10, symSize: 0xA0 }
+  - { offsetInCU: 0x1E5, offset: 0x1E5, size: 0x8, addend: 0x0, symName: _ip_toStr, symObjAddr: 0x1D0, symBinAddr: 0x100003DB0, symSize: 0x7D }
+...
